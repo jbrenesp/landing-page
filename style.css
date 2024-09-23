@@ -1,16 +1,144 @@
-
-body {
-height: 100vh;
-  margin: 0;
-  overflow: hidden;
-  font-family: Roboto, sans-serif;
-}
-
 .header {
-    display: flex;
+  display: flex;
+  text-decoration: none;
+  background-color: #1F2937;
 }
 
-img {
-    max-width: 30px;
-    max-height: 30px;
+#logo {
+    max-width: 200px;
+    max-height: 200px;
+    min-height: 50px;
+    min-width: 50px;
+    background-color: #1F2937;
+    opacity: 0.6;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.right-links {
+  display: flex;
+  margin-left: auto;
+  list-style-type: none;
+  margin-right: 40px;
+  
+}
+a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: white;
+}
+.container {
+  background-color: #1F2937;
+  color: white;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  text-align: left;
+  font-stretch: condensed;
+
+
+}
+#image-2 {
+  max-width: 250px;
+  max-height: 250px;
+  min-height: 90px;
+  min-width: 90px;
+  background-color: #1F2937;
+  margin-right: 50px;
+}
+
+.content {
+  max-width: 40%;
+  margin-left: 85px;
+  max-width: 350px;
+  
+}
+.content-2 {
+   text-align: center;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   margin-bottom: 50px;
+}
+
+.img-list img {
+  max-width: 200px;
+  width:  200px;
+  height: auto;
+  display: inline-block;
+  margin: 10px;
+  border: 2px solid lightblue;
+  border-radius: 8%;
+  
+}
+h1 {
+  text-align: center;
+  
+}
+
+.container-3 {
+   display: flex;
+   flex-direction: column;
+   background-color: #E5E7EB;
+   font-size: 36PX light;
+   font-style:italic;
+   justify-content: center;
+   padding-top: 30px;
+   padding-bottom: 30px;
+   padding-left: 50px;
+   padding-right: 50px;
+}
+.thor-quote {
+  text-align: right;
+}
+.container-4 {
+  display: flex;
+  background-color: #3882F6;
+  color: #E5E7EB;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 20px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-radius: 2%;
+
+}
+.cta-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-row p {
+  margin: 0; /* Ensure no extra margin around the text */
+  flex-grow: 1; /* Allows the text to grow and push the button to the right */
+  margin-top: -50px;
+}
+
+.button-2 button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3882f6;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  position: relative;
+  top: -30px;
+  border-radius: 8%;
+  border: 2px solid white;
+}
+
+.footer {
+  background-color: #1F2937; /* Dark background */
+  color: white; /* White text color */
+  text-align: center; /* Center text */
+  padding: 20px; /* Padding inside the footer */
+  position: relative; /* To keep it at the bottom after content */
+  bottom: 0; /* Stick to bottom of the page */
+  width: 100%; /* Full width of the page */
+  margin-top: 40px; /* Add space before the footer starts */
+  font-size: 14px; /* Smaller font size for footer */
 }
